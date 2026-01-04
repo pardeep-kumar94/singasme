@@ -820,7 +820,7 @@ export default function Home() {
 
                 {/* Benefits */}
                 <div className="mt-6 pt-6 border-t border-gray-200 space-y-3">
-                  <p className="text-sm font-medium text-gray-700 mb-3">What you'll get:</p>
+                  <p className="text-sm font-medium text-gray-700 mb-3">What you&apos;ll get:</p>
                   <div className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -851,10 +851,10 @@ export default function Home() {
                     </svg>
                   </div>
                   <h3 className="font-heading text-3xl font-bold text-black mb-3">
-                    You're on the list!
+                    You&apos;re on the list!
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    Thanks for joining! We'll send you an email at <span className="font-medium text-black">{email}</span> with updates and early access details.
+                    Thanks for joining! We&apos;ll send you an email at <span className="font-medium text-black">{email}</span> with updates and early access details.
                   </p>
                   <button
                     onClick={() => {
